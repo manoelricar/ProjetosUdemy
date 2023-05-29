@@ -19,11 +19,7 @@ p{
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.campanhas {
-	border: 10px ridge gray;
-	
 
-}
 
 #menu {
 	background: #c5c5b2;
@@ -44,4 +40,21 @@ a {
 
 .centralizar {
 	text-align: center;
+}
+img {
+	text-align: center; 
+}
+.imagens{
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh; /* Ajuste a altura conforme necessário */
+	  }
+	  
+	  .container img {
+		max-width: 100%;
+		max-height: 100%;
+	  }
+	  
 }
