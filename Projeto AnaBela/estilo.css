@@ -2,13 +2,27 @@
 
 
 
+.imagem-largura-total {
+	width: 1550px;
+	height: 400px;
+  }
+  
 body {
 	background: #d2d2d2c1 url('imagens/fundo.png');
 	font: 16px Arial, helvetica, sans-serif;
 }
+h1{
+	font-family: cursive;
+	text-align: center;
+}
+p{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-#principal {
-	width: 900px;
+.campanhas {
+	border: 10px ridge gray;
+	
+
 }
 
 #menu {
