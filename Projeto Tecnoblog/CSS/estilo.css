@@ -1,0 +1,40 @@
+/*Limpar formatações padrões*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#ffffffbd;
+}
+
+/*Layout*/
+#area-cabecalho{
+    background:#F7B600;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo,#area-menu{
+    padding: 10px;
+}
+/*Formatações gerais*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+#branco{
+    color: #fff;
+}
+/*Formatação de Links*/
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+a:hover{
+    color: #F7B600;
+     background: #fff;
+}
